@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum Shoppingfilter: String, CaseIterable {
+    case all = "Alle"
+    case missing = "Mangler"
+    case bought = "Kjøpt"
+}
